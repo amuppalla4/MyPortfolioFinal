@@ -1,0 +1,55 @@
+h1{
+    color: #ff0
+}
+*{
+    color: #ff0000;
+    background-color: #00f;
+}
+.header{
+    background-color: #f0c;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+text-decoration-color:rgb(255, 0, 200);
+border: solid;
+padding-left: 800px;
+}
+
+.item{
+    background-color: #ffffff;
+    color: #000;
+    display:flex;
+    justify-content: space-between;
+
+    padding: 50px;
+}
+
+.images{
+    background-color: #ffA500;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.images h3{
+    opacity: 0;
+}
+.images:hover h3{
+    opacity: 1;
+}
+.images:hover img{
+opacity: 0.33;
+}
+.footer{
+    background-color: #00ff00;
+    display:flex;
+    justify-content: flex-end;
+    margin: 120px;
+    border: solid;
+    padding-right: 600px;
+}
+a:link{
+    color:white
+}
+a:visited{
+    color: white;
+}
